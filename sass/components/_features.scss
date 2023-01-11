@@ -34,6 +34,10 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: $primary-text-color;
+
+  @media screen and (min-width: 768px) {
+    text-align: left;
+  }
 }
 
 .features__icon-box {
@@ -53,7 +57,7 @@
 .features__descr {
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
 }
 
 
